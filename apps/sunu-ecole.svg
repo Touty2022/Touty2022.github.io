@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#064e3b"/><stop offset="0.55" stop-color="#047857"/><stop offset="1" stop-color="#10b981"/>
+    </linearGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#d1fae5"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#022c22" flood-opacity="0.28"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)"/>
+  <!-- Reflet doux en haut à gauche -->
+  <circle cx="120" cy="90" r="190" fill="#ffffff" opacity="0.07"/>
+  <g transform="translate(0 0) scale(1)" filter="url(#shadow)">
+    <!-- Livre ouvert -->
+    <path d="M256 318 C214 292 158 288 108 302 L108 404 C158 390 214 394 256 420 Z" fill="url(#page)"/>
+    <path d="M256 318 C298 292 354 288 404 302 L404 404 C354 390 298 394 256 420 Z" fill="url(#page)"/>
+    <path d="M256 318 L256 420" stroke="#6ee7b7" stroke-width="6" stroke-linecap="round"/>
+    <path d="M140 330 C176 322 212 326 236 338 M140 356 C176 348 212 352 236 364 M276 338 C300 326 336 322 372 330 M276 364 C300 352 336 348 372 356" stroke="#a7f3d0" stroke-width="7" stroke-linecap="round" fill="none"/>
+    <!-- Toque de diplômé -->
+    <path d="M190 214 L190 252 C190 280 322 280 322 252 L322 214 L256 242 Z" fill="#065f46"/>
+    <path d="M256 140 L392 196 L256 252 L120 196 Z" fill="#ffffff"/>
+    <path d="M256 196 L378 212 L378 262" stroke="#fbbf24" stroke-width="8" stroke-linecap="round" fill="none"/>
+    <circle cx="378" cy="270" r="12" fill="#fbbf24"/>
+    <!-- Étoile de la réussite -->
+    <path d="M392 88 L402 116 L430 126 L402 136 L392 164 L382 136 L354 126 L382 116 Z" fill="#fbbf24"/>
+  </g>
+</svg>
